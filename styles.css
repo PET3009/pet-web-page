@@ -1,0 +1,21 @@
+h1 {
+    font-title: Arial, sans-serif; color: #6b07ec; font-size: 3em;
+}
+        / CSS to set a background image on the entire page /
+        body {
+            background-image: url('https://www.dpetphotograph.com'); / URL to your background image */
+            background-size: cover; / Scale image to cover entire page /
+            background-repeat: no-repeat; / Prevent image from repeating /
+            background-position: center; / Center the image */
+            background-attachment: fixed; / Makes the background image fixed while scrolling /
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Your content -->
+    <h1>Welcome to D-PET Photograph Services</h1>
+    <p>This page has a background image applied to it.</p>
+
+</body>
+</html>
